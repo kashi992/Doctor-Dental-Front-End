@@ -1,0 +1,267 @@
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px 40px;
+    grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+    grid-template-rows: auto;
+}
+.box{
+	background-color: #fff;
+	height: 11em;
+	margin:10px; 
+	cursor:pointer;
+	border-radius:2px;  
+    box-shadow: 2px 4px #80808061;
+}
+.box a img{
+	width: 30%;
+	background-color:#87ceeb70;
+	margin:30px 0px 0px 30%;
+	border-radius:4px;
+}
+
+.box hr{
+border-color: #cdc7c7;
+max-width: 90%;
+border-width: 1px;
+margin:2em auto 0px auto;
+}
+.box h5{
+	color:#a3a3a3; 
+	margin-left:5%;
+	margin-right: 5%;
+	font-size: .8em;
+	text-align: center;
+}
+.special-icon{
+	font-size:2.5em;	
+	background-color:#87ceeb70;
+	margin:35px 0px 0px 27%;
+	padding: 15px 29px; 
+	border-radius: 8px;
+}
+.patients-icon{
+	font-size:2.5em;	
+	background-color:#87ceeb70;
+	margin:35px 0px 0px 27%;
+	padding: 15px 20px; 
+	border-radius: 8px;
+}
+.ic-blue{
+	color:#002bff8c;
+}
+.ic-green{
+	color:#0ca80cc4;
+}
+.fa-sm{
+	font-size: 2em;
+}
+.appointment{
+	width: 100px;
+	border: 1px solid #14bd6fab;
+	background-color: #14bd6fab;
+	color: white;
+	border-radius: 100px;
+	text-align: center;
+	position: relative;
+	padding: 2px 20px 2px 25px;
+
+}
+.appointment::before{
+	position: absolute;
+			left: 0;
+			top: 0;
+			border: 1 px solid #14bd6fab;
+			border-radius: 100%;
+			width: 25px;
+			height: 25px;
+			padding:2px;
+			color: green;
+			background-color: white;
+			text-align: center;
+		    content: '0';
+}
+/*		.b{
+			position: absolute;
+			left: 0;
+			top: 0;
+			border: 1 px solid green;
+			border-radius: 100%;
+			width: 18px;
+			height: 18px;
+			padding:5px;
+			color: green;
+			background-color: black;
+			text-align: center;
+		}
+*/
+
+ /*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+@media only screen and (min-width: 1401px) and (max-width: 1569px) {
+.p-short-info{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 80vh !important;
+   margin-left: 20px;
+   overflow: hidden !important;
+}
+}
+
+@media only screen and (min-width: 1255px) and (max-width: 1400px) {
+.p-short-info{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 120vh !important;
+   margin-left: 20px;
+   overflow: hidden !important;
+}
+.patients-icon{
+	margin:35px 25% 0px 30%;
+}
+.special-icon{
+	margin:35px 27% 0px 27%;
+}
+}
+
+
+@media only screen and (min-width: 1169px) and (max-width: 1400px) {
+.p-short-info{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 100vh !important;
+   margin-left: 20px;
+   overflow: hidden !important;
+}
+.patients-icon{
+	margin:35px 27% 0px 27%;
+}
+.special-icon{
+	margin:35px 27% 0px 27%;
+}
+}
+
+@media only screen and (min-width: 1027px) and (max-width: 1241px) {
+	.p-short-info{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 100vh !important;
+   margin-left: 20px;
+   overflow: hidden !important;
+}
+.grid-wrapper {
+grid-gap: 10px 20px;
+}
+.patients-icon{
+	margin:35px 27% 0px 27%;
+}
+.special-icon{
+	margin:35px 27% 0px 27%;
+}
+}
+
+@media only screen and (min-width: 933px) and (max-width: 1026px) {
+.p-short-info-update {
+   display: flex !important;
+   width: 90% !important;
+   min-height: 85vh !important;
+   margin-left: 20px;
+   overflow: hidden !important;
+}
+.grid-wrapper {
+grid-gap: 10px 20px;
+}
+.profile-desk{
+	height: 500px;
+}
+.patients-icon{
+	margin:35px 25% 0px 25%;
+}
+.special-icon{
+	margin:35px 25% 0px 25%;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 932px) {
+.p-short-info-update {
+   display: flex !important;
+   width: 90% !important;
+   min-height: 120vh !important;
+   margin-left: 20px;
+   overflow: hidden !important;
+}
+.grid-wrapper {
+grid-gap: 10px 20px;
+}
+.profile-desk{
+	height: 700px;
+}
+.patients-icon{
+	margin:35px 32% 0px 32%;
+}
+.special-icon{
+	margin:35px 32% 0px 32%;
+}
+}
+
+@media screen and (min-width: 601px) and ( max-width:767px) {
+.grid-wrapper {
+grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+}
+
+.profile-desk{
+	height: 800px;
+}
+.profile-desk .p-aside {
+    margin:auto 75px; 
+}
+.patients-icon{
+	margin:35px 32% 0px 32%;
+}
+.special-icon{
+	margin:35px 32% 0px 32%;
+}
+
+}
+
+@media screen and (min-width: 496px ) and ( max-width:600px) {
+.grid-wrapper {
+    grid-gap: 10px 20px;
+}
+
+.profile-desk{
+	height: 800px;
+}
+
+.profile-desk .p-aside {
+    margin:auto 62px; 
+}
+
+.patients-icon{
+	margin:35px 29% 0px 25%;
+}
+.special-icon{
+	margin:35px 28% 0px 28%;
+}
+
+}
+
+@media( max-width: 495px) { 
+.profile-desk .p-aside {
+	margin-right: 45px;
+	margin-left: 50px;
+}
+.box{
+	height: 11em;
+}
+.patients-icon{
+	margin:35px 35% 0px 35%;
+}
+.special-icon{
+	margin:35px 35% 0px 35%;
+}
+}

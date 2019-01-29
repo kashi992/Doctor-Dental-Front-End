@@ -1,0 +1,155 @@
+
+/*style for dental-office content */
+
+.page-head>h5{
+	margin-top: 0px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill,minmax(230px,1fr));
+    grid-template-rows: auto;
+}
+.box{
+	background-color: #fff;
+	height: 13em;
+	margin:10px; 
+	cursor:pointer;  
+	border-radius:4px;
+}
+.box a img{
+	width: 30%;
+	background-color:#05110f12;
+	margin:25px 0px 0px 35%;
+}
+.box h4{
+	font-size: 1em; 
+	text-align: center; 
+	color: grey;
+}
+.box h6{
+	font-size: .8em;
+	text-align: center; 
+	color:grey;
+}
+.box__add{
+	background-color: #2eada0fa;
+}
+.box__add h5{
+	color:#fff; 
+	margin-left:5%;
+	margin-right: 5%;
+}
+
+.box__add hr{
+border-color: #fff;
+max-width: 90%;
+border-width: 1px;
+margin:0px auto 0px auto;
+}
+
+.box__add h6{
+	color: #fff;
+	margin-top: 20px;
+}
+
+.fa__center{
+	font-size: 6em; 
+	color: #fff; 
+	margin:25px 35% 0px 35%;
+	text-align: center;
+}
+
+
+
+
+
+ /*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+
+@media only screen and (min-width: 1273px) and (max-width: 1400px) {
+.p-short-info{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 70vh !important;
+   overflow: hidden !important;
+}
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1272px) {
+	.p-short-info{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 80vh !important;
+   overflow: hidden !important;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+.p-short-info-update {
+   display: flex !important;
+   width: 90% !important;
+   min-height: 60vh !important;
+   overflow: hidden !important;
+}
+}
+
+@media screen and (min-width: 601px) and ( max-width:767px) {
+.grid-wrapper {
+    grid-template-columns: repeat(auto-fill,minmax(190px,1fr));
+}
+
+.profile-desk .p-aside {
+    margin:auto 75px; 
+}
+
+.fa__center{
+	font-size: 5em; 
+	margin:25px 34% 0px 34%;
+	text-align: center;
+}
+.box{
+	height: 12.5em;
+}
+.box a img{
+	width: 35%;
+	margin:25px 0px 0px 30%;
+}
+}
+
+@media ( max-width:600px) {
+.profile-desk .p-aside {
+    margin:auto 62px; 
+  /*  margin-right: 60px;
+    margin-left: 66px;*/
+}
+.fa__center{ 
+	margin:25px 40% 0px 40%;
+}
+.box{
+	height: 15em;
+}
+.box h6{
+	font-size: 1em;
+}
+
+}
+
+@media( max-width:479px) { 
+.profile-desk .p-aside {
+	margin-right: 45px;
+	margin-left: 55px;
+}
+.fa__center{
+margin:25px 35% 0px 35%;
+}
+.box h6{
+	font-size: 1em;
+}
+}

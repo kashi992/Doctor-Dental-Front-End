@@ -1,0 +1,503 @@
+
+.profile__desk--user{
+	min-height: 800px;
+}
+.p-aside>h4{
+	margin:0 auto;
+	font-size: 1.2em;
+}
+.sub__title--user{
+	font-size: 15px;
+}
+.container{
+	background-color: white;
+	width: 100%; 
+	height: 100%;
+	margin-top: 20px;
+}
+.image__section{
+	height: 700px;
+	width: 900px;
+}
+
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 9em;
+}
+.user__image--upload{
+	padding-left: 130px;
+	padding-top: 20px;
+}
+#user{
+	font-size:1.5em; 
+	margin-left:10px;
+}
+.user__status{
+	margin-left: 150px; 
+	font-size:1em;
+}
+#status{
+	background-color: red;
+	color: white; 
+	border: 1px solid red; 
+	border-radius: 2px; 
+	padding-right: 3px; 
+	font-weight: bold;
+}
+.user__image--form{
+	width: 200px;
+	padding-left: 10px;
+	border: 2px solid #05110f12;
+	margin-top: 7px;
+	margin-left:10px;
+}
+.image__form--field{
+	width: 200px;
+}
+.button__upload{
+	background-color:green;
+	font-size: 10px; 
+	color: white;
+	margin-left: 9.5px;
+	border: none; 
+	border-radius: 2px;
+}
+.button__clear{
+	background-color: red;  
+	font-size: 10px;
+	color: white;
+	margin-left: 9.5px;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	border: none; 
+	border-radius: 2px; 
+	padding-right: 15px;	
+}
+
+/*Account Information style*/
+.account{
+	background-color: white;
+	border: 2px solid #05110f12;
+	margin-top:30px;
+	width: 63%;	
+}
+.account__header{
+	background-color: #05110f12;	
+}
+.account__header--text{
+	font-size: 13px;
+	padding-left:20px;	
+}
+.account__form{
+	padding-left: 20px;
+	padding-bottom: 20px; 
+	padding-top: 5px
+}
+.label_fsize{
+	font-size: 13px;
+}
+.user_id{
+	font-size: 13px; 
+	padding-left: 20px;
+}
+ .form__data input{
+	width: 250px; 
+	height: 20px;
+	border: 1px solid #05110f47;
+}
+
+.input__error{
+	font-size: 10px; 
+	color:blue
+}
+.button__update{
+	background-color:green; 
+	font-size: 10px; 
+	color: white;
+	width: 80px; 
+	height: 22px; 
+	border:none;
+}
+.button__cancel{
+	background-color: red; 
+	border: none; 
+	border-radius: 2px;  
+	font-size: 10px;
+	color: white;
+	margin-left: 3px; 
+	width: 80px; 
+	height: 22px; 
+	margin-top: 5px;
+}
+
+/*Location Section Style*/
+.location{
+	background-color: white;
+	width: 63%;
+	border: 2px solid #05110f12;
+	margin-top: 30px;
+}
+.location__header{
+	background-color: #05110f12;
+}
+.location__header--text{
+    font-size: 13px;
+    padding-left:20px;
+}
+.button__edit{
+	background-color: #2eb2cee8; 
+	font-size: 10px;
+	color: white;
+	margin-left: 3px; 
+	width: auto; 
+	height: 18px; 
+	float: right;
+	margin-right: 10px; 
+	border: none; 
+	overflow: hidden;	
+}
+
+.location__content{
+	 height: auto;
+	 padding-left: 20px;
+	 padding-bottom: 20px; 
+	 padding-top: 5px;
+}
+
+
+
+ /*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+@media only screen and (min-width: 1273px) and (max-width: 1400px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 70vh !important;
+   overflow: hidden !important;
+}
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	height:700px;
+	margin-left: 0px;
+}
+
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+
+/*Account Section*/
+
+.account{
+	width: 580px;	
+}
+
+
+/*Location Style*/
+
+.location{
+	width: 580px;
+}
+}
+
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1272px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 90vh !important;
+   overflow: hidden !important;
+}
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	height:700px;
+	margin-left: 0px;
+}
+
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+#user{
+	font-size:1.2em; 
+}
+.user__status{
+	margin-left: 100px; 
+}
+
+
+/*Account Section*/
+
+.account{
+	width: 500px;	
+}
+
+
+/*Location Style*/
+
+.location{
+	width: 500px;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 80vh !important;
+   overflow: hidden !important;
+}
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 600px; 
+	height:650px;
+	margin-left: 0px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 8em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__status{
+	margin-left: 120px; 
+}
+
+.user__image--form{
+	width: 180px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:9px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+
+.account{
+	width: 480px;	
+}
+
+/*Location Style*/
+
+.location{
+	width: 480px;
+}
+}
+@media Screen and ( max-width:808px) {
+.container{
+	width: 530px; 
+	height:650px;
+	margin-left: 0px;
+}
+}
+
+@media Screen and ( max-width:767px) {
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 550px; 
+	height:650px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 8em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__image--form{
+	width: 180px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:9px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+
+.account{
+	width: 450px;	
+}
+
+
+/*Location Style*/
+
+.location{
+	width: 450px;
+}
+
+}
+
+@media screen and (min-width: 480px) and ( max-width:600px) {
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 450px; 
+	height:650px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 8em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__image--form{
+	width: 170px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:9px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+
+.account{
+	width: 350px;	
+}
+
+/*Location Style*/
+
+.location{
+	width: 350px;
+}
+
+}
+
+@media( max-width:479px) { 
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 350px; 
+	height:650px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 7em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__image--form{
+	width: 150px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:0px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+.account{
+	width: 300px;	
+}
+
+
+/*Location Style*/
+
+.location{
+	width: 300px;
+}
+}

@@ -1,0 +1,659 @@
+.profile__desk--user{
+	min-height: 1000px ;
+}
+.p-aside>h4{
+	margin:0 auto;
+	font-size: 1.2em;
+}
+.sub__title--user{
+	font-size: 15px;
+}
+.container{
+	background-color: white;
+	width: 100%; 
+	height: 770px;
+	margin-top: 20px;
+}
+.image__section{
+	height: 700px;
+	width: 900px;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 9em;
+}
+.user__image--upload{
+	padding-left: 130px;
+	padding-top: 20px;
+}
+#user{
+	font-size:1.5em; 
+	margin-left:10px;
+}
+.user__status{
+	margin-left: 150px; 
+	font-size:1em;
+}
+#status{
+	background-color: red;
+	color: white; 
+	border: 1px solid red; 
+	border-radius: 2px; 
+	padding-right: 3px; 
+	font-weight: bold;
+}
+.user__image--form{
+	width: 200px;
+	padding-left: 10px;
+	border: 2px solid #05110f12;
+	margin-top: 7px;
+	margin-left:10px;
+}
+.image__form--field{
+	width: 200px;
+}
+.button__upload{
+	background-color:green;
+	font-size: 10px; 
+	color: white;
+	margin-left: 9.5px;
+	border: none; 
+	border-radius: 2px;
+}
+.button__clear{
+	background-color: red;  
+	font-size: 10px;
+	color: white;
+	margin-left: 9.5px;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	border: none; 
+	border-radius: 2px; 
+	padding-right: 15px;	
+}
+
+/*Accoount Information Styling*/
+.account__edit{
+	background-color: white;
+	border: 2px solid #05110f12;
+	margin-top:30px;
+	width: 63%;
+}
+.account_edit_head{
+background-color: #05110f12;	
+}
+.account_edit_head_text{
+font-size: 13px; 
+padding-left:20px;	
+}
+.account_edit_content{
+	padding-left: 20px;
+	padding-bottom: 20px; 
+	padding-top: 5px;
+}
+.label_fsize{
+	font-size: 13px;
+}
+
+/*Location Section Style*/
+.location{
+	background-color: white;
+	width: 63%;
+	border: 2px solid #05110f12;
+	margin-top: 30px;
+}
+.location__header{
+	background-color: #05110f12;
+}
+.location__header--text{
+    font-size: 13px;
+    padding-left:20px;
+}
+.button__edit{
+	background-color: #2eb2cee8; 
+	font-size: 10px;
+	color: white;
+	margin-left: 3px; 
+	width: auto; 
+	height: 18px; 
+	float: right;
+	margin-right: 10px; 
+	border: none; 
+	overflow: hidden;	
+}
+
+.location__content{
+	 height: auto;
+	 padding-left: 20px;
+	 padding-bottom: 20px; 
+	 padding-top: 5px;
+}
+
+/*Connection section styling*/
+.connection{
+	background-color: white;
+	border: 2px solid #05110f12;
+	margin-top:30px;
+	width: 63%;
+}
+.connected_header{
+background-color: #05110f12;	
+}
+.connected_header_text{
+	font-size: 13px;
+	padding-left:20px;
+}
+.connection_content{
+	height: auto;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	 padding-top: 5px;
+	padding-right: 10px;
+}
+.button__fb{
+	background-color: #3b5998; 
+	 font-size: 10px;
+	 color: white;
+	 margin-top: 5px;
+	 text-align: left;
+	 width: 85px;
+	 border:none; 
+	 border-radius: 2px;	
+}
+.connection_status{
+color: grey	
+}	
+.connection_link{
+	border: 2px solid #05110f12; 
+	margin-top:10px;
+	border-radius: 5px;
+}
+#fb_icon{
+	float: left;
+	 padding:8px 10px; 
+	border-right: 1px solid #05110f12;
+}
+.connection_link h5{
+	font-size: 9.5px; 
+	margin:3px auto 0px 40px;
+}
+.button_google{
+	background-color: #1557e4e3; 
+	font-size: 10px;
+	color: white;
+	margin-top: 5px;
+	width:85px;
+	text-align: left;
+	border:none; 
+	border-radius: 2px;
+}
+#google_icon{
+float: left; 
+padding:8px 8px; 
+border-right: 1px solid #05110f12; 
+color:#1557e4;	
+}
+.button__cancel{
+	background-color: red; 
+	border: none; 
+	border-radius: 2px;  
+	font-size: 10px;
+	color: white;
+	width: 80px; 
+	height: 22px;
+	position: relative;
+	top: 40px;
+	left:480px;
+}
+
+ /*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+@media only screen and (min-width: 1273px) and (max-width: 1400px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 70vh !important;
+   overflow: hidden !important;
+}
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	height:800px;
+	margin-left: 0px;
+}
+
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+
+/*Account Section*/
+
+.account__edit{
+	width: 580px;	
+}
+
+
+/*Location Style*/
+
+.location{
+	width: 580px;
+}
+
+/*connected devices style*/
+.connection{
+width: 580px;
+}
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:63%;
+}
+}
+@media (max-width: 1365px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:65%;
+}
+@media (max-width: 1335px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:67%;
+}
+@media (max-width: 1300px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:70%;
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1272px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 90vh !important;
+   overflow: hidden !important;
+}
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	height:800px;
+	margin-left: 0px;
+}
+
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+#user{
+	font-size:1.2em; 
+}
+.user__status{
+	margin-left: 100px; 
+}
+
+
+/*Account Section*/
+
+.account__edit{
+	width: 500px;	
+}
+
+
+/*Location Style*/
+
+.location{
+	width: 500px;
+}
+
+/*connected devices style*/
+.connection{
+width: 500px;
+}
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:61%;
+}
+}
+@media (max-width: 1210px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:65%;
+}
+@media (max-width: 1164px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:69%;
+}
+@media (max-width: 1136px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:71%;
+}
+@media (max-width: 1090px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:75%;
+}
+@media (max-width: 1060px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:80%;
+}
+@media (max-width: 1024px) {
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:61%;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 80vh !important;
+   margin-left: 20px !important;
+   overflow: hidden !important;
+}
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 600px; 
+	height:800px;
+	margin-left: 0px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 8em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__status{
+	margin-left: 120px; 
+}
+
+.user__image--form{
+	width: 180px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:9px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+
+.account__edit{
+	width: 480px;	
+}
+
+/*Location Style*/
+
+.location{
+	width: 480px;
+}
+/*connected devices style*/
+.connection{
+width: 480px;
+}
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:70%;
+}
+}
+
+@media Screen and ( max-width:808px) {
+.container{
+	width: 530px; 
+	height:800px;
+	margin-left: 0px;
+}
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:80%;
+}
+}
+
+
+@media Screen and ( max-width:767px) {
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 550px; 
+	height:780px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 8em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__image--form{
+	width: 180px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:9px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+
+.account__edit{
+	width: 450px;	
+}
+
+/*Location Style*/
+
+.location{
+	width: 450px;
+}
+
+/*connected devices style*/
+.connection{
+width: 450px;
+}
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:70%;
+}
+
+}
+
+@media screen and (min-width: 480px) and ( max-width:600px) {
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 450px; 
+	height:800px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 8em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__image--form{
+	width: 170px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:9px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+
+.account__edit{
+	width: 350px;	
+}
+
+/*Location Style*/
+
+.location{
+	width: 350px;
+}
+/*connected devices style*/
+.connection{
+width: 350px;
+}
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:65%;
+}
+
+}
+
+@media( max-width:479px) { 
+.profile-desk .p-aside {
+    width: 100%;
+}
+
+.container{
+	width: 350px; 
+	height:750px;
+}
+
+/*Image Section*/
+.image__section{
+	height: 100%;
+	width: 100%;
+}
+.user__image{
+	float: left; 
+	padding-top: 20px;
+}
+.user__image img{
+	float: left; 
+	width: 7em;
+}
+.user__image--upload{
+	padding-left: 100px;
+	padding-top: 10px;
+}
+#user{
+	font-size:1em; 
+	margin-left:10px;
+}
+
+.user__image--form{
+	width: 150px;
+	padding-left: 0px;
+	border: 2px solid #05110f12;
+	margin-top:0px;
+}
+.image__form--field{
+	width: 200px;
+}
+
+/*Account Section*/
+.account__edit{
+	width: 300px;	
+}
+
+
+/*Location Style*/
+
+.location{
+	width: 300px;
+}
+/*connected devices style*/
+.connection{
+width: 300px;
+}
+.button__cancel{
+	position: relative;
+	top: 50px;
+	left:70%;
+}
+
+}

@@ -1,0 +1,186 @@
+/*Layout style  for Dashboard-Find-Do*/
+.page__head--find{
+	padding: 20px 20px 10px 20px;
+}
+.page__head--find>h5{
+	margin-top: 0px;
+}
+
+.page__head--find h6{
+	margin-bottom: 0px;
+	color: #0075ff;
+}
+
+
+/*Content style for Dashboard-Find-DO*/
+/*.office-container{
+  width: 70%;
+}*/
+
+.office_container{
+  width: 70%;
+}
+
+.office{
+	width: 100%;
+}
+
+.office__search{
+	width:100%;
+	display:inline-flex;
+	justify-content:flex-start; 
+	/*box-shadow: 2px 4px #80808061;*/
+}
+
+.office__search input{
+	width:100%; 
+	border:none;
+  border: 2px;
+}
+.office i{
+	color: #0075ff;
+}
+
+.office__search--button{
+	width: 3.5em;
+	height: 2.3em; 
+	border: none;
+  border-radius: 2px;
+}
+
+.office-list{
+  background-color: white; 
+  border: 1px solid silver; 
+  border-radius: 2px; 
+  height: 5em;
+}
+
+.list_left{
+  float: left;
+}
+
+.office_name{
+  padding-left: 8px; 
+  margin-bottom: 0px; 
+  padding-top: 5px; 
+  color: #0075ff;
+}
+
+.office_location{
+  padding-left: 8px;
+  margin-top: 5px;
+  color: #737070;
+}
+.office_not_found{
+  background-color: white;
+  border: 1px solid silver; 
+  border-radius: 2px; 
+  height: 2em;
+}
+.office_not_found h6{
+color: red;
+ margin-top: 5px;
+  padding-left: 8px;
+}
+.button__claim--office{
+  float: right;
+  background-color:#2ba87ab8;
+  font-size: 10px; 
+  color: white;
+  margin-left: 9.5px;
+  border: none; 
+  border-radius: 2px;
+  position: relative; 
+  top:35px; 
+  right: 20px;
+}
+
+
+ /*****************
+================================================
+ (  Media Queries  )
+================================================
+ *******************/
+
+
+@media only screen and (min-width: 1273px) and (max-width: 1400px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 70vh !important;
+   overflow: hidden !important;
+}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1272px) {
+	.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 68vh !important;
+   overflow: hidden !important;
+}
+.page-head .sub-title{
+    width: 436px;
+    display: block;
+}
+}
+
+
+@media only screen and (min-width: 1000px) and (max-width: 1025px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 70vh !important;
+   overflow: hidden !important;
+}
+.state-information .state-graph{
+	margin-left: 20px !important;
+}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+.p-short-info-update{
+   display: flex !important;
+   width: 90% !important;
+   min-height: 68vh !important;
+   overflow: hidden !important;
+}
+.page-head .sub-title{
+    width: 436px;
+    display: block;
+}
+.profile-desk .p-aside {
+    width: 67%;
+}
+.office {
+    width: 500px;
+} 
+}
+
+@media Screen and ( max-width:767px) {
+.profile-desk .p-aside {
+    width: 67%;
+}
+.office {
+    width: 460px;
+}
+}
+
+@media( max-width:600px) {
+.profile-desk .p-aside {
+    width: 67%;
+}
+.office {
+    width: 400px;
+}
+}
+
+@media( max-width:479px) { 
+.profile-desk .p-aside {
+    width: 67%;
+}
+.office {
+    width: 300px;
+}
+}

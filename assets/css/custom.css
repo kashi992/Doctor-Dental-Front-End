@@ -1,0 +1,11 @@
+/*5 Rules to follow during HTML and CSS implementation///
+------------------------------------------------------
+1) Avoid using CSS in JS. Organise CSS with SASS where necessary
+2) Stick with font awesome icon set in assets folder
+3) Don't use any external dependency in implementation.
+4) Put your CSS styles for each page in separate files, use comments for description
+5) Maintain consistency with colors and block elements
+6) Ensure pages are responsive across all platforms
+7) Adopt BEM methodology for HTML and CSS naming convention for classes
+
+ */
